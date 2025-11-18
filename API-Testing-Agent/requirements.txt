@@ -1,5 +1,4 @@
-requests>=2.31.0
-pydantic>=2.0.0
-python-dotenv>=1.0.0
-google-generativeai>=0.8.0
-markdownify>=0.11.6
+# Basic dependencies (the essentials!)
+requests>=2.31.0           # For making HTTP requests to APIs
+python-dotenv>=1.0.0       # For loading environment variables from .env file
+google-generativeai>=0.8.0 # For using Gemini AI to classify documents

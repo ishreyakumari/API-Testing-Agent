@@ -21,7 +21,6 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 from pydantic import BaseModel, Field
-from markdownify import markdownify as md
 import google.generativeai as genai
 from dotenv import load_dotenv
 
